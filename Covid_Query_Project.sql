@@ -154,7 +154,7 @@ ORDER BY 1, 2
 
 
 --Creating a veiw to store data for visualization
-CREATE VIEW DeathAndVaccination AS
+CREATE VIEW #DeathAndVaccination AS
 SELECT D.location
 ,D.date
 ,D.population
